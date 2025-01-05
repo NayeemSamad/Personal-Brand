@@ -1,9 +1,10 @@
 {
-  "name": "470_20101603_project",
+  "name": "470_20301251_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,8 +14,12 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.12.0",
     "mongoose": "^7.0.3",
-    "nodemon": "^2.0.22",
+    "react-scripts": "^5.0.1",
     "stripe": "^12.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
